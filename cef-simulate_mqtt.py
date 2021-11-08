@@ -37,5 +37,5 @@ cef_message = "CEF:0|DATASRCNAME|FLEX|1.0|MIDNIT|New day|" + sel_severity_txt + 
 
 print(cef_message)
 
-# Publish CEF lof message to 'cef' topic
+# Publish CEF log message to 'cef' topic
 mqttc.publish("cef", cef_message)

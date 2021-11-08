@@ -6,11 +6,11 @@ Python scripts that can be modified to produce CEF log data. Output includes CEF
    * Modify `time.sleep()` for desired frequency
 2. **CEF Simulate MQTT**: Generate a CEF record and publish to MQTT broker
    * modify `mqttc.connect("localhost", 1883)` for your MQTT broker
-   * One-time execution that can be modified or embedded in another applicaiton for looping
+   * One-time execution that can be modified or embedded in another application for looping
 3. **CEF Simulate Kafka**: Generate a CEF record and publish to Kafka topic
    * Modify `KafkaProducer(bootstrap_servers='192.168.142.111:9092')` for your Kafka bootstrap servers
    * Uncomment `#logging.basicConfig(level=logging.INFO)` to troubleshoot
-   * One-time execution that can be modified or embedded in another applicaiton for looping
+   * One-time execution that can be modified or embedded in another application for looping
 
 Content customization of the scripts is identical.
 
