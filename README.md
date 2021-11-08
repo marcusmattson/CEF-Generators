@@ -17,4 +17,10 @@ Content customization of the scripts is identical.
 * Use/change the lists as needed
 * `ts` is an event timestamp
 * `ts_2` is an event timestamp designed to introduce occassional timestamp errors that are greater than the current time
-* The varios random variables produce the sample data
+* The various random variables produce the sample data
+
+Additional Python modules needed
+
+* paho-mqtt
+* kafka-python
+* logging
