@@ -9,7 +9,7 @@ from kafka import KafkaProducer
 #logging.basicConfig(level=logging.INFO) 
 
 # Assign Kafka broker for publishing - comma-separated list of bootstrap servrs
-producer = KafkaProducer(bootstrap_servers='192.168.142.111:9092')
+producer = KafkaProducer(bootstrap_servers='localhost:9092')
 
 # List to be used with the randomization functions
 username = ['A123456', 'Z789321', 'abc0987', 'xyz56789', 'TST76544', 'Alistair', 'Bethany']
